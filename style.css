@@ -1,37 +1,44 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
 h1 {
-    color: #333;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
 form {
     margin: 20px;
-    padding: 20px;
-    border: 2px solid #333;
-    border-radius: 5px;
-    background-color: #f5f5f5;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
 }
 
-input[type="file"] {
-    margin: 10px;
+form input[type="file"] {
+    display: block;
+    margin: 10px auto;
 }
 
-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-button:hover {
-    background-color: #555;
+li {
+    margin: 5px 0;
 }
 
-#status {
-    margin-top: 20px;
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
 }
