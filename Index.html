@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload and Download</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>File Upload and Download</h1>
+    
+    <h2>Upload a File</h2>
+    <form enctype="multipart/form-data" method="post" action="/upload">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Download Files</h2>
+    <ul id="file-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
